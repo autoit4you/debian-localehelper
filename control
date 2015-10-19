@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 9),
 				libperl-critic-perl
 Standards-Version: 3.9.6
 Homepage: http://jwilk.net/software/localehelper
-Vcs-Git: git://anonscm.debian.org/collab-maint/localehelper.git
+Vcs-Git: git://github.com/autoit4you/debian-localehelper.git
 Vcs-Browser: https://github.com/autoit4you/debian-localehelper
 
 Package: localehelper

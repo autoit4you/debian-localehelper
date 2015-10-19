@@ -1,0 +1,5 @@
+localehelper (0.1.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #801064)
+
+ -- Jonathan Ulrich Horn <debian@autoit4you.de>  Mon, 19 Oct 2015 18:00:40 +0200

@@ -15,5 +15,8 @@ Package: localehelper
 Architecture: all
 Depends: ${misc:Depends},
 		${perl:Depends}
-Description: A helper tool for generating locales and setting internationalization environment variables
- Localehelper is a tool for generating locales and (un)setting internationalization environment variables.
+Description: Locale helper tool
+ Localehelper is a helper tool for working with locales.
+ It can generate locales and (un)set environmental variables
+ for internationalization purposes.
+

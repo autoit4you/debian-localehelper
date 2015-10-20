@@ -9,6 +9,6 @@ override_dh_auto_clean:
 	$(MAKE) --directory=doc clean
 
 override_dh_auto_test:
-	ifeq (, $(filter nocheck, $(DEB_BUILD_OPTIONS)))
+    ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 		prove --verbose
-	endif
+    endif

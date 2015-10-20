@@ -36,5 +36,7 @@ override_dh_auto_clean:
 	dh_auto_clean --
 
 override_dh_auto_test:
-	prove --verbose
-	dh_auto_test --
+	ifeq (, $(filter nocheck, $(DEB_BUILD_OPTIONS)))
+		prove --verbose
+		dh_auto_test --
+	endif

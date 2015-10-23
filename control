@@ -3,9 +3,9 @@ Section: utils
 Priority: optional
 Maintainer: Jonathan Ulrich Horn <debian@autoit4you.de>
 Build-Depends: debhelper (>= 9),
-				perl(>=5.10),
-				libperl-minimumversion-perl,
-				locales
+               libperl-minimumversion-perl,
+               locales,
+               perl(>=5.10)
 Standards-Version: 3.9.6
 Homepage: http://jwilk.net/software/localehelper
 Vcs-Git: https://github.com/autoit4you/debian-localehelper.git
@@ -13,11 +13,8 @@ Vcs-Browser: https://github.com/autoit4you/debian-localehelper
 
 Package: localehelper
 Architecture: all
-Depends: ${misc:Depends},
-		${perl:Depends},
-		locales
+Depends: locales, ${misc:Depends}, ${perl:Depends}
 Description: locale helper tool
  Localehelper is a helper tool for working with locales.
  It can generate locales and (un)set environmental variables
  for internationalization purposes.
-
